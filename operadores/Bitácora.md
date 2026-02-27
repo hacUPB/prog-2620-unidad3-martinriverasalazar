@@ -3,3 +3,6 @@
 
  A lo largo de mi día utilizo este tipo de preguntas un montón de veces, practicamente todo el día. Yo creo que este tipo de cosas se les puede enseñar a una computadora por medio de operadores para hacer los cálculos y pasito a pasito como un bebé.
  
+ ## Ejercicio 1
+ ![Imagen3](/Images/Imagen3.png)
+ 
