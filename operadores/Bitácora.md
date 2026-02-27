@@ -6,3 +6,7 @@
  ## Ejercicio 1
  ![Imagen3](/Images/Imagen3.png)
  
+ ## Ejercicio 2
+ ![Imagen4](/Images/Imagen4.png)
+
+ 
