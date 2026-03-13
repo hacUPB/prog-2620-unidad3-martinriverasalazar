@@ -1,0 +1,14 @@
+## tabla de variables
+| variable | tipo | descripcion |
+|----------|------|-------------|
+|  numero_tramos  | entrada  | este es el numero de tramos que se van a realizar en el vuelo  |  
+| distancia_tramos  | entrada  | la distancia de cada tramo en kilometros  |
+|  viento  | entrada  | que tipo de viento quiere escoger (headwind, tailwind, crosswind)
+|  consumo_base  |  constante  |  es el consumo de combustible que va a tener el avion por kilometro  |  
+|  ajuste  | constante  | es el porcentaje que afecta el combustible de acuerdo al viento  |
+|  capacidad_inicial  |  constante  | capacidad de combustible estandar del A320  |  
+|  reserva  |  constante  | es la cantidad de combustible limite  |
+|  combustible_actual  | salida  | es el combustible actual del avion  |
+| consumo | salida | es el combustible consumido por cada tramo  |
+| alerta | salida | es el mensaje que se muestra cuando el combustible cae por debajo de lo establecido  |
+| estado_alerta | salida  | es el que indica si el vuelo fue completado o abortado  |
