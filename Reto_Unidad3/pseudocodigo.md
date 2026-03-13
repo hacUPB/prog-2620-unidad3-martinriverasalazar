@@ -1,19 +1,22 @@
+FUNCION calcular_consumo_tramo(distancia, viento)
+    consumo = distancia * consumo_base
+    SI viento = "headwind" ENTONCES
+        consumo = consumo * (1 + ajuste)
+    SINO SI viento = "tailwind" ENTONCES
+        consumo = consumo * (1 - ajuste)
+    SINO SI viento = "crosswind" ENTONCES
+        consumo = consumo
+    FIN SI
+    RETORNAR consumo
+FIN FUNCION
+
+
+
 INICIO
 capacidad_inicial = 158790
 consumo_base = 6
 ajuste = 0.16
-reserva = 20000
-   FUNCION calcular_consumo_tramo(distancia, viento)
-       consumo = distancia * consumo_base
-       SI viento = "headwind" ENTONCES
-           consumo = consumo * (1 + ajuste)
-       SINO SI viento = "tailwind" ENTONCES
-           consumo = consumo * (1 - ajuste)
-       SINO SI viento = "crosswind" ENTONCES
-           consumo = consumo
-       FIN SI
-       RETORNAR consumo
-   FIN FUNCION
+reserva = consumo_inicial * 0.05 + 3250
    Leer numero_tramos
    combustible_actual = capacidad_inicial
    Mostrar "SIMULACIÓN DE VUELO SMCS"
